@@ -3,8 +3,10 @@
 
 /* universal */
 
+
 body {
   padding-top: 60px;
+  color: #FFD700;
 }
 
 section {
@@ -34,6 +36,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-color: #FFD700;
 }
 
 h2 {
@@ -42,31 +45,29 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color:  #FFD700;
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  color: #FFD700;
 }
 
 /* header */
 
 #logo {
-  float: left;
+  float:center;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  font-color: #FFD700;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+
 }
 
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
-}
 
 video {
   display: block;
@@ -79,11 +80,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  color: #FFD700;
 }
 
 footer a {
-  color: #555;
+  color:  #FFD700;
 }
 
 footer a:hover {
