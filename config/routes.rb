@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :users
   get 'static_pages/home'
 
   get '/organizing', to: 'static_pages#organizing'
@@ -11,6 +12,8 @@ Rails.application.routes.draw do
   get '/testimonials', to: 'static_pages#testimonials'
 
   get '/contact', to: 'static_pages#contact'
+
+  get '/users', to: 'users#new'
 
   root 'static_pages#home'
 	

@@ -1,13 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* mixins, variables, etc. */
 
+$gray-medium-light: #eaeaea;
 
 /* universal */
 
 body {
   padding-top: 60px;
-  background: BurlyWood  !important;
 }
 
 section {
@@ -36,9 +37,6 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  background-color: #800020;
-  color: #FFFF00;
-  font: Brush Script Std, Brush Script MT, cursive; 
 }
 
 h2 {
@@ -47,7 +45,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #800020;
+  color: $gray-light;
 }
 
 p {
@@ -62,7 +60,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #FFFF00 !important;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -70,9 +68,7 @@ p {
   &:hover {
     color: white;
     text-decoration: none;
-
   }
-  
 }
 
 /* footer */
@@ -80,12 +76,12 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #800020;
-  color: #FFFF00;
+  border-top: 1px solid $gray-medium-light;
+  color: $gray-light;
   a {
     color: $gray;
     &:hover {
-      color: #800020;
+      color: $gray-darker;
     }
   }
   small {
