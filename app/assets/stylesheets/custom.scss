@@ -5,9 +5,14 @@
 
 /* universal */
 
+.jumbotron {
+  font-color: yellow;
+}
+
 body {
   padding-top: 60px;
-  background: BurlyWood  !important;
+  background: white;
+  text-align: center;
 }
 
 section {
@@ -50,16 +55,26 @@ h2 {
   color: #800020;
 }
 
+
+
+
 p {
   font-size: 1.1em;
   line-height: 1.7em;
   text-align: center;
 }
 
+img {
+  float: center;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 /* header */
 
-#logo {
+#img {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -69,7 +84,7 @@ p {
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 
   }
